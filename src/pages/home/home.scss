@@ -1,0 +1,4 @@
+.home-page-layout {
+    @apply h-full min-h-screen grid gap-8;
+    grid-template-rows: 60px auto;
+}
