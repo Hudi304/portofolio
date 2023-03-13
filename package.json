@@ -14,7 +14,8 @@
     "format": "yarn run lint --fix & yarn prettier --write src/**/*.{js,jsx,ts,tsx}",
     "up-lib": "npx update-browserslist-db@latest",
     "gen-ch-data": "ts-node ./src/tools/data-generators/chart-data-generator.tsx",
-    "gen-tb-data": "ts-node ./src/tools/data-generators/table-data-generator.tsx"
+    "gen-tb-data": "ts-node ./src/tools/data-generators/table-data-generator.tsx",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.5",
@@ -31,6 +32,7 @@
     "chartjs-adapter-moment": "^1.0.1",
     "date-fns": "^2.29.3",
     "formik": "^2.2.9",
+    "gh-pages": "^5.0.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "qrcode.react": "^3.1.0",
