@@ -3,6 +3,7 @@ import { NavBar } from '@/components/nav-bar/nav-bar'
 import { MyProjects } from './my-projects/my-projects'
 import { AboutMe } from './aboute-me/about-me'
 import './landing.scss'
+import { FutureProjects } from './future-projects/future-projects'
 
 export function LandingPage() {
   return (
@@ -34,6 +35,8 @@ export function LandingPage() {
         </Card>
 
         <MyProjects />
+
+        <FutureProjects />
 
         <Card className='w-96 h-[400px]'>Contact</Card>
       </div>
