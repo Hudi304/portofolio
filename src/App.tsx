@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { Home } from './pages/home/home'
+import { LandingPage } from './pages/home/landing'
 import { routes } from './routes'
 import './App.scss'
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/home' element={<Home />} />
+        <Route path='/home' element={<LandingPage />} />
         <Route path='*' element={<Navigate replace to={'/'} />} />
       </Routes>
     </div>

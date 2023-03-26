@@ -1,0 +1,9 @@
+.landing-page-layout {
+    @apply grid bg-slate-700;
+    grid-template-rows: 60px auto;
+
+    .landing-page-body {
+        @apply max-h-screen h-screen;
+        @apply flex justify-center items-center;
+    }
+}

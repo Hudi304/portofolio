@@ -1,12 +1,7 @@
 .App {
-  @apply min-h-full overflow-x-hidden;
-
-  & .user_bar {
-    height: 100vh;
-  }
+  @apply overflow-x-hidden;
 
   .debug {
     @apply border border-black;
   }
-
 }
