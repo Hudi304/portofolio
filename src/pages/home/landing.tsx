@@ -27,17 +27,14 @@ export function LandingPage() {
           </div>
         </Card>
 
-        {/* <Card className='w-96'> */}
+        <Card className='w-96 h-[400px]'>
+          <div>Soft skills</div>
+
+          <div>MUNs</div>
+        </Card>
 
         <MyProjects />
 
-        <div className='grid grid-cols-4 grid-rows-4 gap-1'>
-          <div className='debug'>Smart Thermostat</div>
-          <div className='debug'>Cluj Who</div>
-          <div className='debug'>I.O.T. Engine Control Unit</div>
-          <div className='debug'>Code Generator</div>
-        </div>
-        {/* </Card> */}
         <Card className='w-96 h-[400px]'>Contact</Card>
       </div>
     </div>
